@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*BAGIAN HEADER*/
+/*=====================================================*/
+.header {
+    overflow: hidden;
+    background-color: #122620;
+    padding: 20px;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+}
+  
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+  
+.header-right a{
+    font-family: 'Poppins', sans-serif;
+}
+  
+.header .logo{
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+  
+.logo span {font-weight: 800;}
+  
+.header-right {float: right;}
+  
+.header-right a:hover {color: #ddd;}
+
+@media screen and (max-width: 800px) {
+    header{text-align: center;}
+    
+    .header a{
+        float: none;
+        display: block;
+    }
+    
+    .header-right {float: none;}
+    .header-right a{padding: 7px;}
+}
+  
+/*=====================================================*/
+
+/* BAGIAN MAIN */
+/*=====================================================*/
+main{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+.judul{font-weight: 800;}
+
+.profil{
+    color: #122620;
+    background-color: #D6AD60;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.inner{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+}
+
+.konten{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    padding: 30px;
+}
+
+.bio{text-align: left;}
+
+#fotoProfil{
+    border-radius: 100px;
+}
+
+.pencapaian{
+    color: #F4EBD0;
+    background-color: #122620;
+    padding: 30px;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+}
+
+.target{
+    color: #122620;
+    padding: 30px;
+}
+/*=====================================================*/
+
+/* BAGIAN FOOTER */
+/*=====================================================*/
+.footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #B68D40;
+    width     : 100%;
+    height    : auto;
+    text-align: center;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+}
+
+.sosmed{
+    font-family: "Montserrat";
+    font-size: 25px;
+    color: #F4EBD0;
+}
+.sosmed span {font-weight: 800;}
+
+.innerFooter{
+    display: flex;
+    width: 100%;
+}
+
+.linkSosmed{
+    width: 80%;
+}
+
+.linkSosmed a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #F4EBD0;
+}
+
+.linkSosmed a:hover{color: #ddd;}
+
+.linkSosmed a p{font-size: 18px;}
+/*=====================================================*/
